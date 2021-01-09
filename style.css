@@ -1,0 +1,17 @@
+html {
+  background-color: #ff6347;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  display: flex;
+  width: 230px;
+  height: 230px;
+  background-color: #f5deb3;
+}
