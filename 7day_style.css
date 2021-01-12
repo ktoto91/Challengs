@@ -69,3 +69,7 @@ body {
 .in_box span:first-child {
   font-size: large;
 }
+
+.in_box span:last-child {
+  font-size: small;
+}

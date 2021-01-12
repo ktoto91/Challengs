@@ -1,0 +1,100 @@
+html {
+  background-color: #6bbcbe;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.three-circle {
+  display: flex;
+  width: 120px;
+  height: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  animation: circlemove 1s ease-in-out infinite 0.1s;
+}
+
+.three-circle div {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@keyframes circlemove {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.five-box {
+  display: flex;
+  width: 80px;
+  height: 220px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.five-box div {
+  width: 10px;
+  height: 40px;
+  background-color: white;
+}
+
+@keyframes boxmove {
+  0% {
+    transform: scaleY(1);
+  }
+  15% {
+    transform: scaleY(1);
+  }
+  30% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  30% {
+    transform: scaleY(1);
+  }
+  15% {
+    transform: scaleY(1);
+  }
+  0% {
+    transform: scaleY(1);
+  }
+}
+
+.five-box div {
+  animation: boxmove 1s ease-out infinite;
+}
+
+.five-box div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.five-box div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.five-box div:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.five-box div:last-child {
+  animation-delay: 0.4s;
+}
