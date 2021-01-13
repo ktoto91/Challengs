@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.main-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 345px;
+  height: 770px;
+  border: 5px solid #00c6ad;
+  padding: 40px 35px;
+  background-color: white;
+}
+
+.music-title {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.music-title i {
+  position: absolute;
+  left: 0;
+}
+
+.main-box {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: flex-start;
+}
+
+.main-screen {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.main-box__img {
+  display: flex;
+  width: 180px;
+  height: 140px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: #ffbd11;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box__img i {
+  color: white;
+}
+
+.main-box__text {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.main-box__text span:first-child {
+  font-size: 46px;
+  display: flex;
+  letter-spacing: 5px;
+}
+
+.main-box__text span:last-child {
+  font-size: 20px;
+}
+
+.main-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-btn__play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 60px;
+  border: 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 6px solid;
+}
+
+.main-btn__play i {
+  margin-right: 10px;
+}
+
+.main-btn__heart,
+.main_btn__plus {
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid;
+}
+
+.music-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-list__child {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.music-list__child div:first-child {
+  width: 55px;
+  height: 55px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.music-list__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-list__title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.music-list__coment {
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.music-list__redbox {
+  background-color: #f85a2a;
+}
+
+.music-list__pinkbox {
+  background-color: #ff89bb;
+}
+
+.music-list__bluebox {
+  background-color: #1847e5;
+}
+
+.music-list__greenbox {
+  background-color: #00c6ad;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
