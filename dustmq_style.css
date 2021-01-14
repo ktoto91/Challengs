@@ -77,16 +77,3 @@ body {
   font-size: small;
 }
 
-.main-btn__play {
-  width: 180px;
-  height: 60px;
-  border: 2px solid;
-  border-radius: 10px;
-}
-.main-btn__heart,
-.main_btn__plus {
-  width: 70px;
-  height: 70px;
-  border: 2px solid;
-  border-radius: 50%;
-}
