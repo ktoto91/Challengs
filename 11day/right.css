@@ -76,6 +76,4 @@
   right: 14px;
   top: 17.5px;
   color: rgb(243, 240, 240);
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
